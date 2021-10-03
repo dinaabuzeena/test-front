@@ -3,7 +3,7 @@ import { withAuth0 } from '@auth0/auth0-react';
 import Home from './component/Home';
 import Header from './component/Header';
 import Footer from './component/Footer';
-import login from './component/login';
+
 import FavFruit from './component/FavFruit';
 import {
   BrowserRouter as Router,
@@ -12,7 +12,7 @@ import {
 } from "react-router-dom";
 
 
- class App extends React. Component {
+ class App extends  Component {
   render() {
     const {isAuthenticated}=this.props.auth0;
     return (
